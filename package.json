@@ -2,7 +2,7 @@
   "name": "personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/FaridFadilah/Personal-profile",
+  "homepage": "https://faridfadilah.github.io/Personal-profile/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
