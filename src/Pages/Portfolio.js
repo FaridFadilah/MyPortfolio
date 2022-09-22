@@ -1,4 +1,4 @@
-import { faGithub, faLaravel, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faBootstrap, faGithub, faLaravel, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
@@ -25,6 +25,22 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          <div className="w-full">
+            <div className="border-2 border-gray-700 dark:border-gray-100 rounded-lg p-5">
+              <div className="flex items-center justify-between">
+                <h1 className='text-2xl text-gray-700 dark:text-gray-100'>Portfolio Personal Website</h1>
+                <div className="">
+                  <a className='px-2' target="_blank" rel='noreferrer' href='https://github.com/FaridFadilah/Personal-profile'><FontAwesomeIcon className='text-2xl dark:text-gray-100' icon={faGithub}/></a>
+                  <a className='px-2' target='_blank' rel='noreferrer' href="https://faridfadilah.github.io/React-Shopping-Cart/" ><FontAwesomeIcon className='text-2xl dark:text-gray-100' icon={faArrowUpRightFromSquare}/></a>
+                </div>
+              </div>
+              <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>Membuat website pribadi </p>
+              <div className="flex items-center pt-2">
+                <FontAwesomeIcon className='text-2xl text-blue-400' icon={faReact}/>
+                <img className='w-6 mx-2' src={require("../Img/Tailwind.png")} alt=""/>
+              </div>
+            </div>
+          </div>
           <div className="w-full ">
             <div className="border-2 border-gray-700 dark:border-gray-100 rounded-lg p-5">
               <div className="flex justify-between items-center">
@@ -33,10 +49,10 @@ export default function Portfolio() {
                   <a className='px-2' target="_blank" rel='noreferrer' href='https://github.com/FaridFadilah/Hotel/tree/master'><FontAwesomeIcon className='text-2xl dark:text-gray-100' icon={faGithub}/></a>
                 </div>
               </div>
-              <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>Create Shopping cart feature </p>
+              <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>pemesanan kamar hotel, terdapat fitur autentikasi dan autorization</p>
               <div className="flex items-center pt-2">
-                <img className='w-7 mx-2' src={require("../Img/React.png")} alt="" />
-                <img className='w-7 mx-2' src={require("../Img/Tailwind.png")} alt="" />
+                <FontAwesomeIcon className='text-2xl px-2' icon={faLaravel}/>
+                <FontAwesomeIcon className='text-2xl px-2' icon={faBootstrap}/>
               </div>
             </div>
           </div>
@@ -48,7 +64,7 @@ export default function Portfolio() {
                   <FontAwesomeIcon className='text-2xl dark:text-gray-100' icon={faGithub}/>
                 </a>
               </div>
-              <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>Create Shopping cart feature </p>
+              <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>Membuat aplikasi Movie menggunakan API dari API TMDB</p>
               <div className="flex items-center pt-2">
                 <FontAwesomeIcon className='text-2xl text-red-600' icon={faLaravel}/>
                 <img className='w-7 mx-2' src={require("../Img/Tailwind.png")} alt="" />
