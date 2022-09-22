@@ -8,7 +8,7 @@ export default function About() {
                 <div className="w-3/4 flex flex-col py-3">
                     <h1 className='text-4xl text-gray-700 dark:text-gray-100 font-bold'>Farid Fadilah Permana</h1>
                     <p className='w-3/4 py-3 text-xl text-gray-700 dark:text-gray-100 leading-relaxed'>hi, perkenalkan saya Farid Fadilah Permana, saya tinggal dibandung, keahlian saya bidang web development, pertama kali saya suka ngoding diumur 17 tahun. </p>
-                    <div className="flex justify-between gap-5">
+                    <div className="w-2/3 flex justify-between gap-5">
                       <div className="flex flex-col ">
                         <h1 className='text-2xl font-bold text-gray-700 dark:text-gray-100'>Domisili</h1>
                         <span className='text-lg text-gray-700 dark:text-gray-100'>Bandung - Jawa Barat - 40624</span>
@@ -17,7 +17,9 @@ export default function About() {
                         <h1 className='text-2xl font-bold text-gray-700 dark:text-gray-100'>Umur</h1>
                         <span className='text-lg text-gray-700 dark:text-gray-100'>19 Tahun</span>
                       </div>
-                      <div className="flex flex-col"></div>
+                    </div>
+                    <div className="py-2">
+                      <h1 className="text-2xl text-gray-700 font-bold">Pendidikan</h1>
                     </div>
                 </div>
                 <div className="rounded-full py-3 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">

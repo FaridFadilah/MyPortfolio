@@ -51,8 +51,8 @@ export default function Portfolio() {
               </div>
               <p className='text-lg pt-2 text-gray-700 dark:text-gray-100'>pemesanan kamar hotel, terdapat fitur autentikasi dan autorization</p>
               <div className="flex items-center pt-2">
-                <FontAwesomeIcon className='text-2xl px-2' icon={faLaravel}/>
-                <FontAwesomeIcon className='text-2xl px-2' icon={faBootstrap}/>
+                <FontAwesomeIcon className='text-2xl px-2 text-red-600' icon={faLaravel}/>
+                <FontAwesomeIcon className='text-2xl px-2 text-purple-700' icon={faBootstrap}/>
               </div>
             </div>
           </div>

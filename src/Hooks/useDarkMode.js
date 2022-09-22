@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function useDarkMode() {
-    const [Theme, setTheme] = React.useState("light")
-    const colorTheme = Theme === "light" ? "dark" : "light"
-    React.useEffect(() => {
+    const [theme, setTheme] = React.useState("light")
+    const colorTheme = theme === "light" ? "dark" : "light"
+    useEffect(() => {
         const root = window.document.documentElement
-
-        root.classList.add(Theme)
+        root.classList.add(theme)
         root.classList.remove(colorTheme)
-    }, [setTheme, colorTheme])
+
+        localStorage.setItem("Theme", theme)
+    }, [theme, colorTheme])
     return [setTheme, colorTheme]
 }
