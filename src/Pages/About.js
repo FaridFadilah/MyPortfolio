@@ -18,9 +18,24 @@ export default function About() {
                         <span className='text-lg text-gray-700 dark:text-gray-100'>19 Tahun</span>
                       </div>
                     </div>
-                    <div className="py-2">
-                      <h1 className="text-2xl text-gray-700 font-bold">Pendidikan</h1>
+                    <div className="w-2/3 py-5 flex justify-between">
+                      <div className="flex flex-col">
+                        <h1 className="text-2xl text-gray-700 dark:text-gray-100 font-bold">Pendidikan</h1>
+                        <h3 className="text-xl text-gray-700 dark:text-gray-100 font-medium">SMK Bakti Nusantara 666</h3>
+                        <h5 className="text-xl text-gray-700 dark:text-gray-100">Rekayasa Perangkat Lunak (RPL)</h5>
+                        <span className="text-lg text-gray-700 dark:text-gray-100">2019 - 2022</span>
+                      </div>
                     </div>
+                      <div className="flex flex-col">
+                        <h1 className="text-2xl text-gray-700 dark:text-gray-100 font-bold">Magang</h1>
+                        <h3 className="text-xl text-gray-700 dark:text-gray-100">Geka Sublim</h3>
+                        <h5 className="text-lg text-gray-700 dark:text-gray-100">Quality Control</h5>
+                        <h5 className="text-lg text-gray-700 dark:text-gray-100">Job desk</h5>
+                        <ul className='list-disc pl-5'>
+                          <li className='text-md text-gray-700 dark:text-gray-100'>Melakukan Checking ulang pada product yang sudah selesai diproduksi</li>
+                          <li className='text-md text-gray-700 dark:text-gray-100'>Melakukan packing barang yg sudah selesai</li>
+                        </ul>
+                      </div>
                 </div>
                 <div className="rounded-full py-3 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
                   <img className='w-80 aspect-square object-cover rounded-full' src={require("../Img/IMG_20220607_135959.jpg")} alt="" />
