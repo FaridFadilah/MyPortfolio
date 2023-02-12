@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Home() {
+export default function MyPortfolio() {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center antialiased tracking-tighter bg-white dark:bg-gray-700 min-h-screen py-8">
         <div className="w-full lg:w-3/4">
